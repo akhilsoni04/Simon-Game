@@ -89,4 +89,3 @@ function reset(){
     userSeq = [];
     level = 0;
 }
-
