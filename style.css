@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+.btn{
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 7px solid black;
+    margin: 1rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+
+}
+.yellow{
+    background-color: #f99b45;
+}
+.red{
+    background-color: #d95980;
+} 
+.green{
+    background-color: #819ff9;
+}
+.purple{
+    background-color: #63aac0;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px); }
+    20% { transform: translate(-1px, -2px); }
+    40% { transform: translate(-3px, 0px); }
+    60% { transform: translate(3px, 2px); }
+    80% { transform: translate(1px, -1px); }
+    100% { transform: translate(1px, 2px); }
+}
